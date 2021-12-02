@@ -30,7 +30,7 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#projects" id="projects-link"><span class="icon solid fa-th">Projects</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>							</ul>
 						</nav>
 
@@ -40,8 +40,8 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/tsotnekarchava/" class="icon brands fa-linkedin"><span class="label">Github</span></a></li>
-							<li><a href="https://github.com/tsotnek" class="icon brands fa-github"><span class="label">Dribbble</span></a></li>
+							<li><a href="https://www.linkedin.com/in/tsotnekarchava/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/tsotnek" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							<li><a href="mailto:tsotne.karchava04@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
@@ -61,25 +61,75 @@
 
 								
 							<footer>
-								<a href="#portfolio" class="button scrolly">Click to view projects.</a>
+								<a href="#projects" class="button scrolly">Click to view projects.</a>
 							</footer>
 
 						</div>
 					</section>
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+					<section id="projects" class="two">
 						<div class="container">
-							<div class="Tkibuli">
 							<header>
 								<h2><br>Projects<br><br></h2>
 							</header>
 
-							<h10 style="font-size:30px">Tkibuli Coal Mine Project</h10>
-							<p style="font-size:20px">2020/07-2021/08</p></style>
-							<br><p>RnD Project Design and Development. I created a full RFID payment system for Tkibuli Coal Factory including hardware and software. I made a simple GUI program in python  that is being used by 1000+ Employees.</p>
-							<img src="images/tkibulipic.jpg" class="img1" alt="Tkibuli Device Picture" width="400" height="400"  />
-							<img src="images/tkibuligui.JPG" alt="Tkibuli GUI Picture" width="800" height="400" style="vertical-align:top;margin:20px 40px"/>
+							<div class="Citycom">
+								<h10 style="font-size:30px">Citycom NFC+RFID Project</h10>
+								<p style="font-size:20px">2021/10-Present</p></style>
+								<p>Recently, I took up a project where I have to make a device for one of the largest access control companies
+									in Georgia - Citycom. The device will be used as an access control for the buildings and for elevators. Clients
+									will be able to use their Smartphones (with NFC support) to unlock doors or access elevators. The system will also
+									have an option to just use the conventional ISO 14443-3,4 RFID tags or cards. I decided to use PN5180 IC from NXP for this project.
+
+							   </p>
+							   <img src="images/pnev5180.jpg" class="img1" alt="Solar Panel PCB" width="800" height="400"  style="horizontal-align:top;margin:0px 0px"/>
+							   <img src="images/pn5180.png" class="img1" alt="Solar Panel PCB" width="400" height="300"  style="horizontal-align:top;margin:0px 0px"/>
+
+
+
+								<br><br><br><br>
+							</div>
+
+
+							<div class="Tkibuli">
+							
+
+								<h10 style="font-size:30px">Tkibuli Coal Mine Project</h10>
+								<p style="font-size:20px">2020/07-2021/08</p></style>
+								<p>RnD Project Design and Development. I created a full RFID payment system for Tkibuli Coal Factory including hardware and software. I made a simple
+									 GUI program in Python that communicates with Hardware RFID card reader using Serial communication. It is basically an emulation of a shop POS computer but the payment is processed
+									 using custom RFID cards. The system is being used daily by 1000+ Employees.
+
+								</p>
+								<img src="images/tkibulipic.jpg" class="img1" alt="Tkibuli Device Picture" width="400" height="400"  style="horizontal-align:top;margin:20px 40px"/>
+								<img src="images/tkibuligui.JPG" alt="Tkibuli GUI Picture" width="800" height="400" style="vertical-align:top;margin:20px 40px"/>
+							<br><br><br><br>
+							</div>
+
+							<div class="Smart Solar">
+								<h10 style="font-size:30px">Smart Solar Panel</h10>
+								<p style="font-size:20px">2020/09-2021/04</p></style>
+								<p>Bachelor Thesis Project a.k.a. Capstone Project. Me and my team designed and built system where a Solar Panel
+									was mounted on a plane that moved in two axis direction. The idea is that it follows the movement of the sun, which
+									in turn maximizes the power efficiency. We used photoresistors for feedback and also added current sensors and light sensors.
+									We transmitted all the data to the server such as power generated, bus voltage, light intensity etc. 
+									We also built an Android application where the user could view all the graphs in a simplistic way.  
+							   </p>
+							   <img src="images/assembled.jpg" class="img1" alt="Solar Panel PCB" width="400" height="400"  style="horizontal-align:top;margin:20px 40px"/>
+							   <img src="images/lumendata.jpg" alt="application" width="300" height="400" style="vertical-align:top;margin:20px 40px"/>
+							   <img src="images/builtproject.jpg" class="img1" alt="Built Project" width="400" height="400" style="vertical-align:top;margin:20px 40px"/>
+
+
+
+
+							<br>
+							   <a href="https://photonmining.wordpress.com/">Link to Project's Website</a>
+
+
+
+
+
 							</div>
 
 
@@ -95,7 +145,7 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<img class="image featured" src="images/pic08.jpg" alt="" />
 
 							<p>My Name is Tsotne Karchava, I am an Electrical Engineer and I graduated from San Diego State University in 2021.
 								I am very interested in Embedded Systems Engineering and I currently work as one. I am also quite intersted in

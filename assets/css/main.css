@@ -1749,7 +1749,7 @@ input, select, textarea {
 
 /* Image */
 .img1 {
-	border-radius: 50%;
+	border-radius: 30%;
   }
 	.image {
 		display: inline-block;
