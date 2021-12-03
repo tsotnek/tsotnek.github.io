@@ -1748,8 +1748,36 @@ input, select, textarea {
 		}
 
 /* Image */
+
+
 .img1 {
+
 	border-radius: 30%;
+	max-width: 100%;
+	object-fit: contain;
+	margin: auto;
+	vertical-align: super;
+  }
+  .img3 {
+
+	border-radius: 50%;
+	max-width: 100%;
+	object-fit: contain;
+	margin-left: auto;
+  }
+
+  .img4 {
+	max-width: 100%;
+	margin-left: auto;
+	object-fit: contain;
+	height: 70%
+	
+  }
+
+  .img2 {
+	max-width: 100%;
+	margin-left: auto;
+	object-fit: contain;
   }
 	.image {
 		display: inline-block;
