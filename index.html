@@ -75,16 +75,20 @@
 							</header>
 
 							<div class="Citycom">
-								<h10 style="font-size:30px">Citycom NFC+RFID Project</h10>
+								<h10 style="font-size:30px">ISO 14443 PICC reader and emulator device for CITYCOM</h10>
 								<p style="font-size:20px">2021/10-Present</p></style>
-								<p>Recently, I took up a project where I have to make a device for one of the largest access control companies
-									in Georgia - Citycom. The device will be used as an access control for the buildings and for elevators. Clients
-									will be able to use their Smartphones (with NFC support) to unlock doors or access elevators. The system will also
-									have an option to just use the conventional ISO 14443-3,4 RFID tags or cards. I decided to use PN5180 IC from NXP for this project.
+								<p>I have developed an RFID hardware device for a large Georgian company called CITYCOM. I have designed 
+									the schematic, and PCB and wrote the C code for the processor. I used ST's STM32F103 series 
+									microcontroller and NXP's PN5180 IC for the reader/emulator, the PCB also has onboard 13.56MHz
+									 antenna. The hardware device has the ability to read MIFARE ISO 14443 PICC (RFID cards) and 
+									 also to emulate one. This hardware reader/emulator is placed inside the elevators. 
+									 This gives the ability to the user to pay with either a MIFARE classic card or with a 
+									 smartphone (if it supports NFC).
 
 							   </p>
-							   <img src="images/pnev5180.jpg" class="img4" alt="Solar Panel PCB" width="700" height="400"  />
-							   <img src="images/pn5180.png" class="img4" alt="Solar Panel PCB" width="400" height="300"  />
+							  <center> <img src="images/PN5180DevBoard_Kicad1.png" class="img4" alt="PNboard PCB 3D" width="700" height="400"  />
+							   <img src="images/PN5180DevBoard_Kicad2.png" class="img4" alt="PNboard PCB 3D 2" width="700" height="400"  />
+							   <img src="images/pnpcb.PNG" class="img4" alt="PNboard PCB" width="700" height="400"  /></center>
 
 
 
